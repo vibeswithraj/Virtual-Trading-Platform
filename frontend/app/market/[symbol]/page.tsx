@@ -95,7 +95,13 @@ export default function SymbolPage() {
         </div>
       </div>
 
-      <div className="bg-slate-900 border border-slate-800 rounded p-3">
+      <div
+        className="bg-slate-900 border border-slate-800 rounded p-3"
+        style={{
+          height: '45vh',
+          minHeight: '45vh',
+        }}
+      >
         <TradingViewWidget symbol={quote.symbol} />
       </div>
 
